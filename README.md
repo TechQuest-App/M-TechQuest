@@ -1,8 +1,5 @@
 # M-TechQuest
 Tech Quest is a versatile platform primarily designed to enhance focus and productivity within Team CAT Reloaded, but it's also open to anyone looking to join our learning community. By providing personalized roadmaps, It fosters a supportive community where members can discuss challenges, share solutions, and connect with mentors.
-<<<<<<< HEAD
-# M-TechQuest
-Tech Quest is a versatile platform primarily designed to enhance focus and productivity within Team CAT Reloaded, but it's also open to anyone looking to join our learning community. By providing personalized roadmaps, It fosters a supportive community where members can discuss challenges, share solutions, and connect with mentors.
 =======
 ## Contributers
 
@@ -49,4 +46,3 @@ This is a feature module for the home screen.
 - **ui**
   - **screens/widgets**
     - UI components and screens for the home feature.
->>>>>>> ff6851eedf822587c418ca452d93ad526831846c
