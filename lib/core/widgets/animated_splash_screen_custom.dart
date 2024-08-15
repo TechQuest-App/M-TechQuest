@@ -12,9 +12,9 @@ class AnimatedSplashScreenCustom extends StatelessWidget {
       splash: 'assets/images/logo_TechQuest.png',
       nextScreen: const OnBoardingScreen(),
       backgroundColor: Colors.white,
-      splashTransition: SplashTransition.fadeTransition,
+      splashTransition: SplashTransition.scaleTransition,
       pageTransitionType: PageTransitionType.bottomToTop,
-      duration: 500,
+      duration: 800,
       curve: Curves.easeInCirc,
       centered: true,
     );
