@@ -1,19 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:techquest/features/onboarding/ui/screens/onborading.dart';
+import 'package:techquest/core/routing/app_router.dart';
+
+import 'tech_questApp.dart';
+
 
 void main() {
-  runApp(const TechQuest());
+  runApp( TechQuestApp(appRouter: AppRouter(),));
 }
 
-class TechQuest extends StatelessWidget {
-  const TechQuest({super.key});
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'TechQuest',
-      home: Onboarding(),
-    );
-  }
-}
