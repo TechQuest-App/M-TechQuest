@@ -30,8 +30,8 @@ class TechQuestApp extends StatelessWidget {
           ],
           supportedLocales: S.delegate.supportedLocales,
           title: 'TechQuest',
-          home: const ProfileScreen(),
-          // home: const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
+          // home: const ProfileScreen(),
+          home: const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
         );
       },
     );

@@ -24,7 +24,11 @@ class LoginScreen extends StatelessWidget {
                 Text(
                   S.of(context).Your_learning_journey_Login,
                   style: AppTextStyles.font20Gray100Regular.copyWith(),
-                ),//
+                ),
+                
+                
+
+
               ],
             ),
           ),
