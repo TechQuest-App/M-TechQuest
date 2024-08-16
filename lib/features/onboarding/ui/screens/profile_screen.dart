@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:techquest/core/theming/app_colors.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -30,22 +32,22 @@ class _ProfileScreenState extends State<ProfileScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _buildPointsSection(),
-            const SizedBox(height: 32),
+             SizedBox(height: 32.h),
             _buildMenuItem(Icons.person_outline, 'Profile',
                 'Edit your password, name, address, shoes size'),
-            const SizedBox(height: 24),
+             SizedBox(height: 24.h),
             _buildMenuItem(Icons.security_outlined, 'Security',
                 'FaceID, Two-step verification'),
-            const SizedBox(height: 24),
+             SizedBox(height: 24.h),
             _buildMenuItem(Icons.settings_outlined, 'Settings',
                 'Payment Method, Shipping Address, Notifications'),
-            const SizedBox(height: 32),
+             SizedBox(height: 32.h),
             _buildSimpleMenuItem('Rate Application'),
-            Divider(height: 32, thickness: 1, color: Colors.grey[300]),
+            Divider(height: 32.h, thickness: 1, color: gray300),
             _buildSimpleMenuItem('Reviews'),
-            Divider(height: 32, thickness: 1, color: Colors.grey[300]),
+            Divider(height: 32.h, thickness: 1, color: gray300),
             _buildCurrencyMenuItem(),
-            const SizedBox(height: 40),
+             SizedBox(height: 40.h),
             // Space before the Sign Out text
             Center(
               child: TextButton(
