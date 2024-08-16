@@ -78,11 +78,11 @@ class OnBoardingScreenState extends State<OnBoardingScreen> {
 
   Widget _buildNextButton(BuildContext context) {
     return _isLastPage
-        ? NextPageButton(
+        ? OnBoardingeButton(
             titl: S.of(context).getStarted,
             onPressed: () => context.pushNamed(Routes.loginScreen),
           )
-        : NextPageButton(
+        : OnBoardingeButton(
             titl: S.of(context).next,
             onPressed: () => _pageController.nextPage(
               duration: const Duration(milliseconds: 400),
