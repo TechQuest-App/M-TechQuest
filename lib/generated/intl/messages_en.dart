@@ -22,7 +22,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "Profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "Your_learning_journey_Login": MessageLookupByLibrary.simpleMessage(
+            "Your learning journey awaits. Login now!"),
         "descriptionOnboarding_1": MessageLookupByLibrary.simpleMessage(
             "Explore diverse courses and expand your knowledge horizon."),
         "descriptionOnboarding_2": MessageLookupByLibrary.simpleMessage(
@@ -30,6 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "descriptionOnboarding_3": MessageLookupByLibrary.simpleMessage(
             "Track your progress and earn certifications."),
         "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
+        "login": MessageLookupByLibrary.simpleMessage("log In "),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "titleOnboarding_1": MessageLookupByLibrary.simpleMessage(
             "Embark on a Journey of Discovery"),

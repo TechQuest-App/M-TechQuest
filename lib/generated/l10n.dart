@@ -139,6 +139,36 @@ class S {
       args: [],
     );
   }
+
+  /// `log In `
+  String get login {
+    return Intl.message(
+      'log In ',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your learning journey awaits. Login now!`
+  String get Your_learning_journey_Login {
+    return Intl.message(
+      'Your learning journey awaits. Login now!',
+      name: 'Your_learning_journey_Login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profile`
+  String get Profile {
+    return Intl.message(
+      'Profile',
+      name: 'Profile',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
