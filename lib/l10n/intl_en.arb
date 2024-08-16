@@ -9,5 +9,30 @@
 "getStarted":"Get Started",
 "login":"log In ",
 "Your_learning_journey_Login":"Your learning journey awaits. Login now!",
-"Profile":"Profile"
+"Profile":"Profile",
+"Home":"Home",
+"Wishlist":"Wishlist",
+"Clips":"Clips",
+"Courses":"My courses",
+"Reviews":"Reviews",
+"RateApplication":"Rate Application",
+"Settings":"Settings",
+"Security":"Security",
+"EditYourPassword":"Edit your password",
+"name":"name",
+"address":"address",
+"ShoesSize":"Shoes Size",
+"FaceID":"FaceID",
+"TwoStepVerification":"Two-step verification",
+"PaymentMethod":"Payment Method",
+"ShippingAddress":"Shipping Address",
+"Notifications":"Notifications",
+"SignOut":"Sign Out",
+"YourCurrentlyPoints":"Your Currently Points"
+
+
+
+
+
+
 }

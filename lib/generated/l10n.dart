@@ -169,6 +169,196 @@ class S {
       args: [],
     );
   }
+
+  /// `Home`
+  String get Home {
+    return Intl.message(
+      'Home',
+      name: 'Home',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Wishlist`
+  String get Wishlist {
+    return Intl.message(
+      'Wishlist',
+      name: 'Wishlist',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Clips`
+  String get Clips {
+    return Intl.message(
+      'Clips',
+      name: 'Clips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `My courses`
+  String get Courses {
+    return Intl.message(
+      'My courses',
+      name: 'Courses',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reviews`
+  String get Reviews {
+    return Intl.message(
+      'Reviews',
+      name: 'Reviews',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rate Application`
+  String get RateApplication {
+    return Intl.message(
+      'Rate Application',
+      name: 'RateApplication',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings`
+  String get Settings {
+    return Intl.message(
+      'Settings',
+      name: 'Settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Security`
+  String get Security {
+    return Intl.message(
+      'Security',
+      name: 'Security',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit your password`
+  String get EditYourPassword {
+    return Intl.message(
+      'Edit your password',
+      name: 'EditYourPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `name`
+  String get name {
+    return Intl.message(
+      'name',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `address`
+  String get address {
+    return Intl.message(
+      'address',
+      name: 'address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shoes Size`
+  String get ShoesSize {
+    return Intl.message(
+      'Shoes Size',
+      name: 'ShoesSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `FaceID`
+  String get FaceID {
+    return Intl.message(
+      'FaceID',
+      name: 'FaceID',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Two-step verification`
+  String get TwoStepVerification {
+    return Intl.message(
+      'Two-step verification',
+      name: 'TwoStepVerification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Payment Method`
+  String get PaymentMethod {
+    return Intl.message(
+      'Payment Method',
+      name: 'PaymentMethod',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shipping Address`
+  String get ShippingAddress {
+    return Intl.message(
+      'Shipping Address',
+      name: 'ShippingAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notifications`
+  String get Notifications {
+    return Intl.message(
+      'Notifications',
+      name: 'Notifications',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Out`
+  String get SignOut {
+    return Intl.message(
+      'Sign Out',
+      name: 'SignOut',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your Currently Points`
+  String get YourCurrentlyPoints {
+    return Intl.message(
+      'Your Currently Points',
+      name: 'YourCurrentlyPoints',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
