@@ -23,7 +23,7 @@ class OnBoardingeButton extends StatelessWidget {
       onPressed: onPressed,
       child: Text(
         titl,
-        style: AppTextStyles.font16WhitBold,
+        style: AppTextStyles.font16BWhiteBold,
       ),
     );
   }

@@ -7,7 +7,7 @@ import 'package:techquest/core/routing/route.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
 import 'package:techquest/features/onboarding/data/models/onboarding_info.dart';
 import 'package:techquest/features/onboarding/data/repo/onboarding_items.dart';
-import 'package:techquest/features/onboarding/ui/widgets/next_page_button.dart';
+import 'package:techquest/features/onboarding/ui/widgets/onboarding_button.dart';
 import 'package:techquest/features/onboarding/ui/widgets/onboarding_content.dart';
 import 'package:techquest/generated/l10n.dart';
 
@@ -70,7 +70,7 @@ class OnBoardingScreenState extends State<OnBoardingScreen> {
             _pageController, totalItems), // استخدام وظيفة المساعد
         child: Text(
           S.of(context).Skip,
-          style: AppTextStyles.font20BlackRegular,
+          style: AppTextStyles.font20Gray100Regular,
         ),
       ),
     );

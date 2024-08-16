@@ -33,7 +33,7 @@ class OnboardingContent extends StatelessWidget {
         Text(
           item.description,
           textAlign: TextAlign.center,
-          style: AppTextStyles.font20BlackRegular,
+          style: AppTextStyles.font20Gray100Regular,
         ),
         SizedBox(height: 30.h),
         SmoothPageIndicator(

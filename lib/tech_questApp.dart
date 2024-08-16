@@ -4,6 +4,7 @@ import 'package:techquest/core/routing/app_router.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/widgets/animated_splash_screen_custom.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'features/profile/ui/screens/profile_screen.dart';
 import 'generated/l10n.dart';
 
 class TechQuestApp extends StatelessWidget {
@@ -18,6 +19,7 @@ class TechQuestApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (_, child) {
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(primaryColor: primaryColor),
           onGenerateRoute: appRouter.generateRoute,
           localizationsDelegates: const [
@@ -28,10 +30,10 @@ class TechQuestApp extends StatelessWidget {
           ],
           supportedLocales: S.delegate.supportedLocales,
           title: 'TechQuest',
-          home: const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
+          home: const ProfileScreen(),
+          // home: const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
         );
       },
     );
   }
 }
-

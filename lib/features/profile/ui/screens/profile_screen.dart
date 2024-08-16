@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:techquest/core/helpers/spacing.dart';
+import 'package:techquest/core/theming/app_text_styles.dart';
+import 'package:techquest/generated/l10n.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -18,14 +22,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        title: const Text(
-          'Profile',
-          style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
-        ),
+        title:
+            Text(S.of(context).Profile, style: AppTextStyles.font20BlackBold),
       ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+        padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -39,7 +40,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             const SizedBox(height: 24),
             _buildMenuItem(Icons.settings_outlined, 'Settings',
                 'Payment Method, Shipping Address, Notifications'),
-            const SizedBox(height: 32),
+            verticalSpace(32),
             _buildSimpleMenuItem('Rate Application'),
             Divider(height: 32, thickness: 1, color: Colors.grey[300]),
             _buildSimpleMenuItem('Reviews'),
@@ -76,7 +77,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: _buildBottomNavigationBar(),
+      // bottomNavigationBar: _buildBottomNavigationBar(),
     );
   }
 
@@ -158,8 +159,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 tapTargetSize: MaterialTapTargetSize.shrinkWrap,
               ),
               padding: EdgeInsets.zero,
-          onPressed: (){// to be implemented
-             },
+              onPressed: () {
+                // to be implemented
+              },
               icon: const Icon(Icons.chevron_right, color: Colors.grey)),
         ],
       ),
@@ -176,13 +178,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
           Row(
             children: [
-              const Text('USD', style: TextStyle(color: Colors.blue, fontSize: 16)),
+              const Text('USD',
+                  style: TextStyle(color: Colors.blue, fontSize: 16)),
               const SizedBox(width: 4),
               IconButton(
-                padding: EdgeInsets.zero,
+                  padding: EdgeInsets.zero,
                   constraints: const BoxConstraints(),
-                  style: const ButtonStyle(tapTargetSize: MaterialTapTargetSize.shrinkWrap,),
-                  onPressed: (){// to be implemented
+                  style: const ButtonStyle(
+                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  onPressed: () {
+                    // to be implemented
                   },
                   icon: const Icon(Icons.chevron_right, color: Colors.grey)),
             ],
