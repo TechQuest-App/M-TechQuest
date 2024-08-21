@@ -41,6 +41,28 @@ class AppTextStyles {
       fontSize: 16.sp,
       fontWeight: FontWiegthHelper.regular // Semi-bold weight
       );
+  static TextStyle font14DarckBlueMedium = TextStyle(
+      color: darkBlue,
+      fontSize: 14.sp,
+      fontWeight: FontWiegthHelper.medium // Semi-bold weight
+      );
+  static TextStyle font16RedMedium = TextStyle(
+      color: red,
+      fontSize: 16.sp,
+      fontWeight: FontWiegthHelper.medium // Semi-bold weight
+      );
+  static TextStyle font13DarckBlueMedium = TextStyle(
+      color: darkBlue,
+      fontSize: 16.sp,
+      fontWeight: FontWiegthHelper.medium // Semi-bold weight
+      );
+  static TextStyle font13GreyRegular = TextStyle(
+      color: gray,
+      fontSize: 16.sp,
+      fontWeight: FontWiegthHelper.regular // Semi-bold weight
+      );
   static TextStyle font20BlackBold = const TextStyle(
-      fontSize: 20, fontWeight: FontWiegthHelper.bold, color: black);//hi duhd dd dm
+      fontSize: 20,
+      fontWeight: FontWiegthHelper.bold,
+      color: black); //hi duhd dd dm
 }

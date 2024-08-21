@@ -20,7 +20,10 @@ class TechQuestApp extends StatelessWidget {
       builder: (_, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(primaryColor: primaryColor),
+          theme: ThemeData(
+            primaryColor: primaryColor,
+            scaffoldBackgroundColor: white,
+          ),
           onGenerateRoute: appRouter.generateRoute,
           localizationsDelegates: const [
             S.delegate,
@@ -30,8 +33,9 @@ class TechQuestApp extends StatelessWidget {
           ],
           supportedLocales: S.delegate.supportedLocales,
           title: 'TechQuest',
-          home: const ProfileScreen(),
-          // home: const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
+          // home: const ProfileScreen(),
+          home:
+              const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
         );
       },
     );
