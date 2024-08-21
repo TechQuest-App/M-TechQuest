@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:techquest/core/routing/app_router.dart';
 import 'package:techquest/core/theming/app_colors.dart';
-import 'package:techquest/core/widgets/animated_splash_screen_custom.dart';
+// ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'features/profile/ui/screens/profile_screen.dart';
+import 'package:techquest/features/profile/ui/screens/profile_screen.dart';
 import 'generated/l10n.dart';
 
 class TechQuestApp extends StatelessWidget {

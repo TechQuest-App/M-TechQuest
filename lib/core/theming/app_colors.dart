@@ -10,3 +10,5 @@ const gray200 = Color(0xffF5F5F5);
 const gray300 = Color.fromARGB(255, 252, 233, 233);
 const gray400 = Color(0xffAFAFAF);
 const gray666 = Color(0xff666666);
+const yellow = Color(0xFFFFE500);
+const red = Color(0xffFF0302);

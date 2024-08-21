@@ -24,31 +24,27 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Clips": MessageLookupByLibrary.simpleMessage("Clips"),
         "Courses": MessageLookupByLibrary.simpleMessage("My courses"),
-        "EditYourPassword":
-            MessageLookupByLibrary.simpleMessage("Edit your password"),
-        "FaceID": MessageLookupByLibrary.simpleMessage("FaceID"),
+        "Currency": MessageLookupByLibrary.simpleMessage("Currency"),
+        "EditYourPassword": MessageLookupByLibrary.simpleMessage(
+            "Edit your password , name , address , Shoes Size "),
+        "FaceID": MessageLookupByLibrary.simpleMessage(
+            "FaceID , Two-step verification"),
         "Home": MessageLookupByLibrary.simpleMessage("Home"),
-        "Notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
-        "PaymentMethod": MessageLookupByLibrary.simpleMessage("Payment Method"),
+        "PaymentMethod": MessageLookupByLibrary.simpleMessage(
+            "Payment Method , Shipping Address , Notifications "),
         "Profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "RateApplication":
             MessageLookupByLibrary.simpleMessage("Rate Application"),
         "Reviews": MessageLookupByLibrary.simpleMessage("Reviews"),
         "Security": MessageLookupByLibrary.simpleMessage("Security"),
         "Settings": MessageLookupByLibrary.simpleMessage("Settings"),
-        "ShippingAddress":
-            MessageLookupByLibrary.simpleMessage("Shipping Address"),
-        "ShoesSize": MessageLookupByLibrary.simpleMessage("Shoes Size"),
         "SignOut": MessageLookupByLibrary.simpleMessage("Sign Out"),
         "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
-        "TwoStepVerification":
-            MessageLookupByLibrary.simpleMessage("Two-step verification"),
         "Wishlist": MessageLookupByLibrary.simpleMessage("Wishlist"),
         "YourCurrentlyPoints":
             MessageLookupByLibrary.simpleMessage("Your Currently Points"),
         "Your_learning_journey_Login": MessageLookupByLibrary.simpleMessage(
             "Your learning journey awaits. Login now!"),
-        "address": MessageLookupByLibrary.simpleMessage("address"),
         "descriptionOnboarding_1": MessageLookupByLibrary.simpleMessage(
             "Explore diverse courses and expand your knowledge horizon."),
         "descriptionOnboarding_2": MessageLookupByLibrary.simpleMessage(
@@ -57,7 +53,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "Track your progress and earn certifications."),
         "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
         "login": MessageLookupByLibrary.simpleMessage("log In "),
-        "name": MessageLookupByLibrary.simpleMessage("name"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "titleOnboarding_1": MessageLookupByLibrary.simpleMessage(
             "Embark on a Journey of Discovery"),

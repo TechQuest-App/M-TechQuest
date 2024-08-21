@@ -18,17 +18,14 @@
 "RateApplication":"Rate Application",
 "Settings":"Settings",
 "Security":"Security",
-"EditYourPassword":"Edit your password",
-"name":"name",
-"address":"address",
-"ShoesSize":"Shoes Size",
-"FaceID":"FaceID",
-"TwoStepVerification":"Two-step verification",
-"PaymentMethod":"Payment Method",
-"ShippingAddress":"Shipping Address",
-"Notifications":"Notifications",
+"EditYourPassword":"Edit your password , name , address , Shoes Size ",
+"FaceID":"FaceID , Two-step verification",
+"PaymentMethod":"Payment Method , Shipping Address , Notifications ",
 "SignOut":"Sign Out",
-"YourCurrentlyPoints":"Your Currently Points"
+"YourCurrentlyPoints":"Your Currently Points",
+"Currency":"Currency"
+
+
 
 
 

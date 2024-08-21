@@ -250,91 +250,31 @@ class S {
     );
   }
 
-  /// `Edit your password`
+  /// `Edit your password , name , address , Shoes Size `
   String get EditYourPassword {
     return Intl.message(
-      'Edit your password',
+      'Edit your password , name , address , Shoes Size ',
       name: 'EditYourPassword',
       desc: '',
       args: [],
     );
   }
 
-  /// `name`
-  String get name {
-    return Intl.message(
-      'name',
-      name: 'name',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `address`
-  String get address {
-    return Intl.message(
-      'address',
-      name: 'address',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Shoes Size`
-  String get ShoesSize {
-    return Intl.message(
-      'Shoes Size',
-      name: 'ShoesSize',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `FaceID`
+  /// `FaceID , Two-step verification`
   String get FaceID {
     return Intl.message(
-      'FaceID',
+      'FaceID , Two-step verification',
       name: 'FaceID',
       desc: '',
       args: [],
     );
   }
 
-  /// `Two-step verification`
-  String get TwoStepVerification {
-    return Intl.message(
-      'Two-step verification',
-      name: 'TwoStepVerification',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Payment Method`
+  /// `Payment Method , Shipping Address , Notifications `
   String get PaymentMethod {
     return Intl.message(
-      'Payment Method',
+      'Payment Method , Shipping Address , Notifications ',
       name: 'PaymentMethod',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Shipping Address`
-  String get ShippingAddress {
-    return Intl.message(
-      'Shipping Address',
-      name: 'ShippingAddress',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Notifications`
-  String get Notifications {
-    return Intl.message(
-      'Notifications',
-      name: 'Notifications',
       desc: '',
       args: [],
     );
@@ -355,6 +295,16 @@ class S {
     return Intl.message(
       'Your Currently Points',
       name: 'YourCurrentlyPoints',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Currency`
+  String get Currency {
+    return Intl.message(
+      'Currency',
+      name: 'Currency',
       desc: '',
       args: [],
     );
