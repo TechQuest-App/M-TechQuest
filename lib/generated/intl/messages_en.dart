@@ -22,12 +22,21 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "Already_have": MessageLookupByLibrary.simpleMessage(
+            "Already have an account yet? Sign Up "),
         "Clips": MessageLookupByLibrary.simpleMessage("Clips"),
         "Courses": MessageLookupByLibrary.simpleMessage("My courses"),
+        "Dont_Have":
+            MessageLookupByLibrary.simpleMessage("Don’t Have An Account? "),
         "EditYourPassword":
             MessageLookupByLibrary.simpleMessage("Edit your password"),
+        "Email": MessageLookupByLibrary.simpleMessage("Email"),
+        "Email_Address": MessageLookupByLibrary.simpleMessage("Email Address"),
         "FaceID": MessageLookupByLibrary.simpleMessage("FaceID"),
+        "Forget_Password":
+            MessageLookupByLibrary.simpleMessage("Forget Password"),
         "Home": MessageLookupByLibrary.simpleMessage("Home"),
+        "Log_In": MessageLookupByLibrary.simpleMessage("Log In"),
         "Notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
         "PaymentMethod": MessageLookupByLibrary.simpleMessage("Payment Method"),
         "Profile": MessageLookupByLibrary.simpleMessage("Profile"),
@@ -40,6 +49,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Shipping Address"),
         "ShoesSize": MessageLookupByLibrary.simpleMessage("Shoes Size"),
         "SignOut": MessageLookupByLibrary.simpleMessage("Sign Out"),
+        "Sign_Up": MessageLookupByLibrary.simpleMessage(" Sign Up"),
         "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "TwoStepVerification":
             MessageLookupByLibrary.simpleMessage("Two-step verification"),
@@ -47,8 +57,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "YourCurrentlyPoints":
             MessageLookupByLibrary.simpleMessage("Your Currently Points"),
         "Your_learning_journey_Login": MessageLookupByLibrary.simpleMessage(
-            "Your learning journey awaits. Login now!"),
+            "Your learning journey awaits.\n Login now!"),
         "address": MessageLookupByLibrary.simpleMessage("address"),
+        "and": MessageLookupByLibrary.simpleMessage("and"),
+        "by_logging_you": MessageLookupByLibrary.simpleMessage(
+            "By logging, you agree to our  "),
         "descriptionOnboarding_1": MessageLookupByLibrary.simpleMessage(
             "Explore diverse courses and expand your knowledge horizon."),
         "descriptionOnboarding_2": MessageLookupByLibrary.simpleMessage(
@@ -59,6 +72,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "login": MessageLookupByLibrary.simpleMessage("log In "),
         "name": MessageLookupByLibrary.simpleMessage("name"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "privacyPolicy": MessageLookupByLibrary.simpleMessage("PrivacyPolicy"),
+        "terms_Conditions":
+            MessageLookupByLibrary.simpleMessage("Terms & Conditions"),
         "titleOnboarding_1": MessageLookupByLibrary.simpleMessage(
             "Embark on a Journey of Discovery"),
         "titleOnboarding_2": MessageLookupByLibrary.simpleMessage(

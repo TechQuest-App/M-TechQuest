@@ -150,10 +150,10 @@ class S {
     );
   }
 
-  /// `Your learning journey awaits. Login now!`
+  /// `Your learning journey awaits.\n Login now!`
   String get Your_learning_journey_Login {
     return Intl.message(
-      'Your learning journey awaits. Login now!',
+      'Your learning journey awaits.\n Login now!',
       name: 'Your_learning_journey_Login',
       desc: '',
       args: [],
@@ -355,6 +355,126 @@ class S {
     return Intl.message(
       'Your Currently Points',
       name: 'YourCurrentlyPoints',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get Email {
+    return Intl.message(
+      'Email',
+      name: 'Email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email Address`
+  String get Email_Address {
+    return Intl.message(
+      'Email Address',
+      name: 'Email_Address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` Sign Up`
+  String get Sign_Up {
+    return Intl.message(
+      ' Sign Up',
+      name: 'Sign_Up',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Log In`
+  String get Log_In {
+    return Intl.message(
+      'Log In',
+      name: 'Log_In',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forget Password`
+  String get Forget_Password {
+    return Intl.message(
+      'Forget Password',
+      name: 'Forget_Password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By logging, you agree to our  `
+  String get by_logging_you {
+    return Intl.message(
+      'By logging, you agree to our  ',
+      name: 'by_logging_you',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Terms & Conditions`
+  String get terms_Conditions {
+    return Intl.message(
+      'Terms & Conditions',
+      name: 'terms_Conditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `and`
+  String get and {
+    return Intl.message(
+      'and',
+      name: 'and',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `PrivacyPolicy`
+  String get privacyPolicy {
+    return Intl.message(
+      'PrivacyPolicy',
+      name: 'privacyPolicy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don’t Have An Account? `
+  String get Dont_Have {
+    return Intl.message(
+      'Don’t Have An Account? ',
+      name: 'Dont_Have',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account yet? Sign Up `
+  String get Already_have {
+    return Intl.message(
+      'Already have an account yet? Sign Up ',
+      name: 'Already_have',
       desc: '',
       args: [],
     );

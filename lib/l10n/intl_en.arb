@@ -8,7 +8,7 @@
 "Skip":"Skip",
 "getStarted":"Get Started",
 "login":"log In ",
-"Your_learning_journey_Login":"Your learning journey awaits. Login now!",
+"Your_learning_journey_Login":"Your learning journey awaits.\n Login now!",
 "Profile":"Profile",
 "Home":"Home",
 "Wishlist":"Wishlist",
@@ -28,7 +28,19 @@
 "ShippingAddress":"Shipping Address",
 "Notifications":"Notifications",
 "SignOut":"Sign Out",
-"YourCurrentlyPoints":"Your Currently Points"
+"YourCurrentlyPoints":"Your Currently Points",
+"Email":"Email",
+"password":"Password",
+"Email_Address":"Email Address",
+"Sign_Up":" Sign Up",
+"Log_In":"Log In",
+"Forget_Password":"Forget Password",
+"by_logging_you":"By logging, you agree to our  ",
+"terms_Conditions":"Terms & Conditions",
+"and":"and",
+"privacyPolicy":"PrivacyPolicy",
+"Dont_Have":"Don’t Have An Account? ",
+"Already_have":"Already have an account yet? Sign Up "
 
 
 
