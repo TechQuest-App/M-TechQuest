@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:techquest/core/helpers/spacing.dart';
-import 'package:techquest/features/profile/ui/widgets/simple_menu_item.dart';
+import 'package:techquest/core/theming/app_divider.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/simple_menu_item.dart';
 import 'package:techquest/generated/l10n.dart';
 
 class SimpleMenuItemList extends StatelessWidget {
@@ -14,18 +14,12 @@ class SimpleMenuItemList extends StatelessWidget {
          SimpleMenuItem(
                 title: S.of(context).RateApplication,
               ),
-              Divider(
-                color: Colors.grey,
-                thickness: 0.5.sp, 
-              ),
+             AppDivider.myDivider,
               verticalSpace(10),
                SimpleMenuItem(
                 title: S.of(context).Reviews,
               ),
-              Divider(
-                color: Colors.grey,
-                thickness: 0.5.sp, 
-              ),
+             AppDivider.myDivider,
               verticalSpace(10),
                SimpleMenuItem(
                 title: S.of(context).Currency,

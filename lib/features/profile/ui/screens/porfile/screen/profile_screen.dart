@@ -5,11 +5,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:techquest/core/helpers/spacing.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
-import 'package:techquest/features/profile/ui/widgets/bottom_navigation_bar.dart';
-import 'package:techquest/features/profile/ui/widgets/curretly_piont_section.dart';
-import 'package:techquest/features/profile/ui/widgets/menu_item_list.dart';
-import 'package:techquest/features/profile/ui/widgets/sign_out.dart';
-import 'package:techquest/features/profile/ui/widgets/simple_menu_item_list.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/bottom_navigation_bar.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/curretly_piont_section.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/menu_item_list.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/sign_out.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/simple_menu_item_list.dart';
 import 'package:techquest/generated/l10n.dart';
 
 class ProfileScreen extends StatefulWidget {

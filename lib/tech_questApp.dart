@@ -1,10 +1,12 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:techquest/core/routing/app_router.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 // ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:techquest/features/profile/ui/screens/profile_screen.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/screen/profile_screen.dart';
 import 'generated/l10n.dart';
 
 class TechQuestApp extends StatelessWidget {

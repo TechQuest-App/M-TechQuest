@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:techquest/core/helpers/extensions/app_navigotion.dart';
 import 'package:techquest/core/helpers/spacing.dart';
 import 'package:techquest/core/routing/route.dart';
-import 'package:techquest/features/profile/ui/widgets/menu_item.dart';
+import 'package:techquest/features/profile/ui/screens/porfile/widget/menu_item.dart';
 import 'package:techquest/generated/l10n.dart';
 
 class MenuItemList extends StatelessWidget {
@@ -26,7 +26,7 @@ class MenuItemList extends StatelessWidget {
           title: S.of(context).Security,
           subtitle: S.of(context).FaceID,
           onPressed: () {
-            context.pushNamed(Routes.editSetting);
+            context.pushNamed(Routes.editSecurity);
           },
         ),
         verticalSpace(15),
@@ -36,7 +36,7 @@ class MenuItemList extends StatelessWidget {
           subtitle: S.of(context).PaymentMethod,
           onPressed: () 
           {
-            context.pushNamed(Routes.editSecurity);
+            context.pushNamed(Routes.editSetting);
 
           },
         ),

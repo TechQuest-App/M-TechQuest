@@ -309,6 +309,316 @@ class S {
       args: [],
     );
   }
+
+  /// `First Name`
+  String get FirstName {
+    return Intl.message(
+      'First Name',
+      name: 'FirstName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get Password {
+    return Intl.message(
+      'Password',
+      name: 'Password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Your Password`
+  String get EnterYourPassWord {
+    return Intl.message(
+      'Enter Your Password',
+      name: 'EnterYourPassWord',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Your First Name`
+  String get EnterYourFirstName {
+    return Intl.message(
+      'Enter Your First Name',
+      name: 'EnterYourFirstName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Name`
+  String get LastName {
+    return Intl.message(
+      'Last Name',
+      name: 'LastName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Your Last Name`
+  String get EnterYourLastName {
+    return Intl.message(
+      'Enter Your Last Name',
+      name: 'EnterYourLastName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get Email {
+    return Intl.message(
+      'Email',
+      name: 'Email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `example@example.com`
+  String get EnterYourEmail {
+    return Intl.message(
+      'example@example.com',
+      name: 'EnterYourEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Phone`
+  String get Phone {
+    return Intl.message(
+      'Phone',
+      name: 'Phone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reset Password`
+  String get ResetPassword {
+    return Intl.message(
+      'Reset Password',
+      name: 'ResetPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Change Phone Number`
+  String get ChangePhoneNumber {
+    return Intl.message(
+      'Change Phone Number',
+      name: 'ChangePhoneNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue`
+  String get Continue {
+    return Intl.message(
+      'Continue',
+      name: 'Continue',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter Code`
+  String get EnterCode {
+    return Intl.message(
+      'Enter Code',
+      name: 'EnterCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your Email Address below. The reset link will be sent thatt email to enter a code  in next screen`
+  String get ResetPasswordMessage {
+    return Intl.message(
+      'Enter your Email Address below. The reset link will be sent thatt email to enter a code  in next screen',
+      name: 'ResetPasswordMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Save`
+  String get Save {
+    return Intl.message(
+      'Save',
+      name: 'Save',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Password`
+  String get NewPassword {
+    return Intl.message(
+      'New Password',
+      name: 'NewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm New Password`
+  String get ConfirmNewPassword {
+    return Intl.message(
+      'Confirm New Password',
+      name: 'ConfirmNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter new phone Number below , and an SMS will be sent to that number with a code`
+  String get ChangePhoneMessage {
+    return Intl.message(
+      'Enter new phone Number below , and an SMS will be sent to that number with a code',
+      name: 'ChangePhoneMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter the code sent to`
+  String get EnterTheCodeSentTo {
+    return Intl.message(
+      'Enter the code sent to',
+      name: 'EnterTheCodeSentTo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Edit Phone Number`
+  String get EditPhoneNumber {
+    return Intl.message(
+      'Edit Phone Number',
+      name: 'EditPhoneNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Didn’t received a code`
+  String get DontReceived {
+    return Intl.message(
+      'Didn’t received a code',
+      name: 'DontReceived',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `resend`
+  String get resend {
+    return Intl.message(
+      'resend',
+      name: 'resend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Two-Steps Verification`
+  String get TwoStepsVerification {
+    return Intl.message(
+      'Two-Steps Verification',
+      name: 'TwoStepsVerification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `FaceID`
+  String get FaceIDD {
+    return Intl.message(
+      'FaceID',
+      name: 'FaceIDD',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shipping Address`
+  String get ShippingAddress {
+    return Intl.message(
+      'Shipping Address',
+      name: 'ShippingAddress',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name`
+  String get FullName {
+    return Intl.message(
+      'Full Name',
+      name: 'FullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Payment and Shipping Info`
+  String get PaymentAndShippingInfo {
+    return Intl.message(
+      'Payment and Shipping Info',
+      name: 'PaymentAndShippingInfo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete My Account ?`
+  String get DeleteMyAccount {
+    return Intl.message(
+      'Delete My Account ?',
+      name: 'DeleteMyAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Deleting your account is permanent and cannot be undone. You will lose all your data and access to the app's features.If youre sure you want to proceed, please confirm by clicking the button below.`
+  String get DeleteMessage {
+    return Intl.message(
+      'Deleting your account is permanent and cannot be undone. You will lose all your data and access to the app\'s features.If youre sure you want to proceed, please confirm by clicking the button below.',
+      name: 'DeleteMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get Cancel {
+    return Intl.message(
+      'Cancel',
+      name: 'Cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm`
+  String get Confirm {
+    return Intl.message(
+      'Confirm',
+      name: 'Confirm',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

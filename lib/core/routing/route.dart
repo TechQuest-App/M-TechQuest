@@ -4,5 +4,12 @@ class Routes {
   static const String editProfile ="/EditProfile";
   static const String editSetting  ="/EditSetting";
   static const String editSecurity  ="/EditSecurity";
+  static const String resetPassword  ="/ResetPassword";
+  static const String secondResetPasswordScreen  ="/SecondResetPasswordScreen";
+  static const String changePhoneNumber  ="/ChangePhoneNumber";
+  static const String secondChangePhoneNumber  ="/SecondChangePhoneNumber";
+  static const String lastcontainer  ="/LastContainer";
+
+
   
 }
