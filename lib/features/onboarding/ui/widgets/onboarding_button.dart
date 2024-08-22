@@ -13,7 +13,7 @@ class OnBoardingeButton extends StatelessWidget {
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(primaryColor),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        minimumSize: WidgetStateProperty.all(Size(double.infinity, 50.h)),
+        minimumSize: WidgetStateProperty.all(Size(double.maxFinite, 50.h)),
         shape: WidgetStateProperty.all(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10.w),

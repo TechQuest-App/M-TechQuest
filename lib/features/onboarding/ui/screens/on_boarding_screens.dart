@@ -38,22 +38,25 @@ class OnBoardingScreenState extends State<OnBoardingScreen> {
     return Scaffold(
       body: SafeArea(
         child: PageView.builder(
+          physics: const NeverScrollableScrollPhysics(),
           onPageChanged: (value) => _updateIsLastPage(value, items.length),
           itemCount: items.length,
           controller: _pageController,
           itemBuilder: (context, index) {
             return Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h),
-              child: Column(
-                children: [
-                  _buildSkipButton(items.length),
-                  OnboardingContent(
-                    item: items[index],
-                    pageController: _pageController,
-                  ),
-                  SizedBox(height: 30.h),
-                  _buildNextButton(context),
-                ],
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    _buildSkipButton(items.length),
+                    OnboardingContent(
+                      item: items[index],
+                      pageController: _pageController,
+                    ),
+                    SizedBox(height: 30.h),
+                    _buildNextButton(context),
+                  ],
+                ),
               ),
             );
           },
