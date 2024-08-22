@@ -7,6 +7,7 @@ import 'package:techquest/core/theming/app_colors.dart';
 // ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:techquest/features/profile/ui/screens/porfile/screen/profile_screen.dart';
+import 'core/widgets/animated_splash_screen_custom.dart';
 import 'generated/l10n.dart';
 
 class TechQuestApp extends StatelessWidget {
