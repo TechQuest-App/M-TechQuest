@@ -679,6 +679,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Full Name`
+  String get FullName {
+    return Intl.message(
+      'Full Name',
+      name: 'FullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Payment and Shipping Info`
+  String get PaymentAndShippingInfo {
+    return Intl.message(
+      'Payment and Shipping Info',
+      name: 'PaymentAndShippingInfo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Delete My Account ?`
+  String get DeleteMyAccount {
+    return Intl.message(
+      'Delete My Account ?',
+      name: 'DeleteMyAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Deleting your account is permanent and cannot be undone. You will lose all your data and access to the apps features.If youre sure you want to proceed, please confirm by clicking the button below.`
+  String get DeleteMessage {
+    return Intl.message(
+      'Deleting your account is permanent and cannot be undone. You will lose all your data and access to the apps features.If youre sure you want to proceed, please confirm by clicking the button below.',
+      name: 'DeleteMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get Cancel {
+    return Intl.message(
+      'Cancel',
+      name: 'Cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm`
+  String get Confirm {
+    return Intl.message(
+      'Confirm',
+      name: 'Confirm',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
