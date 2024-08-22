@@ -14,7 +14,6 @@ const gray666 = Color(0xff666666);
 const red = Color(0xffEF4444);
 const darkBlue = Color(0xff242424);
 const yellow = Color(0xFFFFE500);
-const red = Color(0xffFF0302);
 const gray880 = Color(0xff727880);
 const blue209 =Color(0xff2097EE);
 const green23 =Color(0xff23CF51);
