@@ -91,4 +91,15 @@ class AppTextStyles {
       fontSize: 20,
       fontWeight: FontWiegthHelper.bold,
       color: black); //hi duhd dd dm
+       static TextStyle font18Redmedium = const TextStyle(
+      color: red, fontSize: 18, fontWeight: FontWiegthHelper.medium);
+  static TextStyle font14Bluemedium = const TextStyle(
+      color: blue209, fontSize: 14, fontWeight: FontWiegthHelper.medium);
+
+  static TextStyle font16Gray880Semibold = const TextStyle(
+      color: gray880, fontSize: 16, fontWeight: FontWiegthHelper.semiBold);
+  static TextStyle font14BlackSamibold = const TextStyle(
+      color: black, fontSize: 14, fontWeight: FontWiegthHelper.semiBold);
+      static TextStyle font16RedBold = const TextStyle(
+      color: red, fontSize: 16, fontWeight: FontWiegthHelper.bold);
 }
