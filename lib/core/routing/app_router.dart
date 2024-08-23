@@ -22,27 +22,6 @@ class AppRouter {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
       case Routes.loginScreen:
-        return MaterialPageRoute(builder: (_) => const LoginScreen());
-        case Routes.editProfile:
-        return MaterialPageRoute(builder: (_) => const EditProfile());
-        case Routes.editSetting:
-        return MaterialPageRoute(builder: (_) => const EditSetting());
-         case Routes.editSecurity:
-        return MaterialPageRoute(builder: (_) => const EditSecurity());
-        case Routes.resetPassword:
-        return MaterialPageRoute(builder: (_) => const ResetPassword());
-         case Routes.secondResetPasswordScreen:
-        return MaterialPageRoute(builder: (_) => const SecondResetPasswordScreen());
-        case Routes.changePhoneNumber:
-        return MaterialPageRoute(builder: (_) => const ChangePhoneNumber());
-        case Routes.secondChangePhoneNumber:
-        return MaterialPageRoute(builder: (_) => const SecondChangePhoneNumber());
-        case Routes.lastcontainer:
-        return MaterialPageRoute(builder: (_) => const LastContainer());
-        
-        
-
-      case Routes.loginScreen:
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
             create: (context) => getIt<LoginCubit>(),
@@ -50,14 +29,29 @@ class AppRouter {
           ),
         );
       case Routes.homeScreen:
-        return MaterialPageRoute(
-          builder: (_) => const HomeScreen(),
-        );
+        return MaterialPageRoute(builder: (_) => const HomeScreen());
+      case Routes.editProfile:
+        return MaterialPageRoute(builder: (_) => const EditProfile());
+      case Routes.editSetting:
+        return MaterialPageRoute(builder: (_) => const EditSetting());
+      case Routes.editSecurity:
+        return MaterialPageRoute(builder: (_) => const EditSecurity());
+      case Routes.resetPassword:
+        return MaterialPageRoute(builder: (_) => const ResetPassword());
+      case Routes.secondResetPasswordScreen:
+        return MaterialPageRoute(builder: (_) => const SecondResetPasswordScreen());
+      case Routes.changePhoneNumber:
+        return MaterialPageRoute(builder: (_) => const ChangePhoneNumber());
+      case Routes.secondChangePhoneNumber:
+        return MaterialPageRoute(builder: (_) => const SecondChangePhoneNumber());
+      case Routes.lastcontainer:
+        return MaterialPageRoute(builder: (_) => const LastContainer());
       default:
         return MaterialPageRoute(
-            builder: (_) => const Scaffold(
-                  body: Text("Unknown route"),
-                ));
+          builder: (_) => const Scaffold(
+            body: Center(child: Text("Unknown route")),
+          ),
+        );
     }
   }
 }
