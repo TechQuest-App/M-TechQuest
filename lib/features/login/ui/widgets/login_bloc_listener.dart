@@ -4,8 +4,8 @@ import 'package:techquest/core/helpers/extensions/app_navigotion.dart';
 import 'package:techquest/core/routing/app_router.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
-import 'package:techquest/features/user_authentication/logic/cubit/login_cubit.dart';
-import 'package:techquest/features/user_authentication/logic/cubit/login_state.dart';
+import 'package:techquest/features/login/logic/cubit/login_cubit.dart';
+import 'package:techquest/features/login/logic/cubit/login_state.dart';
 
 import '../../../../core/routing/route.dart';
 

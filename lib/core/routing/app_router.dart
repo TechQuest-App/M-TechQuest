@@ -10,10 +10,10 @@ import 'package:techquest/features/profile/ui/screens/edit_profile/screen/second
 import 'package:techquest/features/profile/ui/screens/security/screen/edit_security.dart';
 import 'package:techquest/features/profile/ui/screens/setting/screen/edit_setting.dart';
 import 'package:techquest/features/profile/ui/widgets/last_container.dart';
-import 'package:techquest/features/user_authentication/ui/screens/login_screen.dart';
+import 'package:techquest/features/login/ui/screens/login_screen.dart';
 
 import '../../features/home_screen/ui/screens/home_screen.dart';
-import '../../features/user_authentication/logic/cubit/login_cubit.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
 import '../di/dependecy_injection.dart';
 
 class AppRouter {
