@@ -16,6 +16,8 @@ class AppTextFormField extends StatelessWidget {
   final Color? backgroundColor;
   final TextEditingController? controller;
   final Function(String?) validator;
+  final bool? isNumericKeyboard; // New property
+
   const AppTextFormField({
     super.key,
     this.contentPadding,
@@ -29,12 +31,16 @@ class AppTextFormField extends StatelessWidget {
     this.backgroundColor,
     this.controller,
     required this.validator,
+    this.isNumericKeyboard,
   });
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
+      keyboardType: isNumericKeyboard == true
+          ? const TextInputType.numberWithOptions(decimal: false)
+          : TextInputType.text, // Use numeric keyboard if true
       decoration: InputDecoration(
         isDense: true,
         contentPadding: contentPadding ??
@@ -42,7 +48,7 @@ class AppTextFormField extends StatelessWidget {
         focusedBorder: focusedBorder ??
             OutlineInputBorder(
               borderSide: const BorderSide(
-                color:primaryColor,
+                color: primaryColor,
                 width: 1.3,
               ),
               borderRadius: BorderRadius.circular(16.0),
@@ -72,11 +78,11 @@ class AppTextFormField extends StatelessWidget {
         hintStyle: hintStyle ?? AppTextStyles.font14LightGrayRegular,
         hintText: hintText,
         suffixIcon: suffixIcon,
-        fillColor: backgroundColor ?? moreLightGray,
+        fillColor: backgroundColor ?? gray200,
         filled: true,
       ),
       obscureText: isObscureText ?? false,
-      style: AppTextStyles.font14DarkBlueMedium,
+      style: AppTextStyles.font14gray666Medium,
       validator: (value) {
         return validator(value);
       },

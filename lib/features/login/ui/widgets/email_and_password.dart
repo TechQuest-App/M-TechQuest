@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:techquest/generated/l10n.dart';
 import '../../../../core/helpers/app_regex.dart';
 import '../../../../core/helpers/spacing.dart';
 import '../../../../core/widgets/add_text_form_field.dart';
+import '../../../../core/widgets/title_left.dart';
 import '../../logic/cubit/login_cubit.dart';
 import 'password_validations.dart';
 
@@ -50,8 +52,11 @@ class _EmailAndPasswordState extends State<EmailAndPassword> {
       key: context.read<LoginCubit>().formKey,
       child: Column(
         children: [
+          TitleLeft(
+            title: S.of(context).Email,
+          ),
           AppTextFormField(
-            hintText: 'Email',
+            hintText: S.of(context).Email,
             validator: (value) {
               if (value == null ||
                   value.isEmpty ||
@@ -62,9 +67,12 @@ class _EmailAndPasswordState extends State<EmailAndPassword> {
             controller: context.read<LoginCubit>().emailController,
           ),
           verticalSpace(18),
+          TitleLeft(
+            title: S.of(context).Password,
+          ),
           AppTextFormField(
             controller: context.read<LoginCubit>().passwordController,
-            hintText: 'Password',
+            hintText: S.of(context).Password,
             isObscureText: isObscureText,
             suffixIcon: GestureDetector(
               onTap: () {

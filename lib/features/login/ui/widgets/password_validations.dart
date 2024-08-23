@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:techquest/core/theming/app_text_styles.dart';
 
 import '../../../../core/helpers/spacing.dart';
 import '../../../../core/theming/app_colors.dart';
@@ -21,40 +20,26 @@ class PasswordValidations extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        buildValidationRow('At least 1 lowercase letter', hasLowerCase),
-        verticalSpace(2),
-        buildValidationRow('At least 1 uppercase letter', hasUpperCase),
-        verticalSpace(2),
-        buildValidationRow(
-            'At least 1 special character', hasSpecialCharacters),
-        verticalSpace(2),
-        buildValidationRow('At least 1 number', hasNumber),
-        verticalSpace(2),
-        buildValidationRow('At least 8 characters long', hasMinLength),
+        buildValidationIcon(hasLowerCase, Icons.text_fields, 'Lowercase'),
+        buildValidationIcon(hasUpperCase, Icons.title, 'Uppercase'),
+        buildValidationIcon(hasSpecialCharacters, Icons.emoji_symbols, 'Special Character'),
+        buildValidationIcon(hasNumber, Icons.looks_one, 'Number'),
+        buildValidationIcon(hasMinLength, Icons.check, 'Min. Length'),
       ],
     );
   }
 
-  Widget buildValidationRow(String text, bool hasValidated) {
-    return Row(
-      children: [
-        const CircleAvatar(
-          radius: 2.5,
-          backgroundColor: gray,
-        ),
-        horizontalSpace(6),
-        Text(
-          text,
-          style: AppTextStyles.font13DarkBlueRegular.copyWith(
-            decoration: hasValidated ? TextDecoration.lineThrough : null,
-            decorationColor: Colors.green,
-            decorationThickness: 2,
-            color: hasValidated ?gray : darkBlue,
-          ),
-        )
-      ],
+  Widget buildValidationIcon(bool hasValidated, IconData iconData, String tooltip) {
+    return Tooltip(
+      message: tooltip,
+      child: Icon(
+        iconData,
+        color: hasValidated ? Colors.green : gray,
+        size: 24,
+      ),
     );
   }
 }

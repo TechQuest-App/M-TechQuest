@@ -83,7 +83,7 @@ class OnBoardingScreenState extends State<OnBoardingScreen> {
     return _isLastPage
         ? OnBoardingeButton(
             titl: S.of(context).getStarted,
-            onPressed: () => context.pushNamed(Routes.loginScreen),
+            onPressed: () => context.pushNamed(Routes.signUpScreen),
           )
         : OnBoardingeButton(
             titl: S.of(context).next,

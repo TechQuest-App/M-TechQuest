@@ -23,7 +23,9 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Already_have": MessageLookupByLibrary.simpleMessage(
-            "Already have an account yet? Sign Up "),
+            "Already have an account yet?"),
+        "Begin_learning": MessageLookupByLibrary.simpleMessage(
+            "Begin learning with just a few clicks"),
         "Cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "ChangePhoneMessage": MessageLookupByLibrary.simpleMessage(
             "Enter new phone Number below , and an SMS will be sent to that number with a code"),
@@ -68,10 +70,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "Forget_Password":
             MessageLookupByLibrary.simpleMessage("Forget Password"),
         "FullName": MessageLookupByLibrary.simpleMessage("Full Name"),
+        "Full_name": MessageLookupByLibrary.simpleMessage("Full Name"),
         "Home": MessageLookupByLibrary.simpleMessage("Home"),
         "LastName": MessageLookupByLibrary.simpleMessage("Last Name"),
+        "Last_name": MessageLookupByLibrary.simpleMessage("Last Name"),
         "Log_In": MessageLookupByLibrary.simpleMessage("Log In"),
         "NewPassword": MessageLookupByLibrary.simpleMessage("New Password"),
+        "New_password": MessageLookupByLibrary.simpleMessage("New Password"),
         "Notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
         "Password": MessageLookupByLibrary.simpleMessage("Password"),
         "PaymentAndShippingInfo":
@@ -79,6 +84,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "PaymentMethod": MessageLookupByLibrary.simpleMessage(
             "Payment Method , Shipping Address , Notifications "),
         "Phone": MessageLookupByLibrary.simpleMessage("Phone"),
+        "Phone_Number": MessageLookupByLibrary.simpleMessage("Phone number"),
         "Profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "RateApplication":
             MessageLookupByLibrary.simpleMessage("Rate Application"),
@@ -111,9 +117,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "descriptionOnboarding_3": MessageLookupByLibrary.simpleMessage(
             "Track your progress and earn certifications."),
         "getStarted": MessageLookupByLibrary.simpleMessage("Get Started"),
-        "login": MessageLookupByLibrary.simpleMessage("log In "),
+        "name": MessageLookupByLibrary.simpleMessage("Name"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
-        "password": MessageLookupByLibrary.simpleMessage("Password"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("PrivacyPolicy"),
         "resend": MessageLookupByLibrary.simpleMessage("resend"),
         "terms_Conditions":

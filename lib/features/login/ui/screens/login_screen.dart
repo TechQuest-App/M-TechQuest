@@ -7,7 +7,7 @@ import 'package:techquest/generated/l10n.dart';
 import '../../../../core/widgets/app_text_button.dart';
 import '../../data/models/login_request_body.dart';
 import '../../logic/cubit/login_cubit.dart';
-import '../widgets/already_have_account_text.dart';
+import '../widgets/dont_have_account_text.dart';
 import '../widgets/email_and_password.dart';
 import '../widgets/login_bloc_listener.dart';
 import '../widgets/terms_and_conditions_text.dart';
@@ -29,7 +29,7 @@ class LoginScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      S.of(context).login,
+                      S.of(context).Log_In,
                       style: AppTextStyles.font30BlackSemiBold,
                     ),
                   ],
@@ -65,7 +65,7 @@ class LoginScreen extends StatelessWidget {
                 verticalSpace(24),
                 const TermsAndConditionsText(),
                 verticalSpace(60),
-                const AlreadyHaveAccountText(),
+                const DontHaveAccountText(),
                 const LoginBlocListener(),
               ],
             ),
