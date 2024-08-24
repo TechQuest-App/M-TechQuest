@@ -181,4 +181,20 @@ class AppTextStyles {
     fontWeight: FontWeightHelper.medium,
     color: blue209,
   );
+   static TextStyle font24BlacSemiBold = TextStyle(
+    fontSize: 24.sp,
+    fontWeight: FontWeightHelper.semiBold,
+    color: black,
+  );
+  static TextStyle font16Graymedium = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: gray100,
+  );
+  static TextStyle font18BlacksemiBold = TextStyle(
+    color: black,
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.semiBold, // Regular weight
+  );
+  
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:techquest/core/routing/route.dart';
+import 'package:techquest/features/mentor/screen/mentor_profile.dart';
 import 'package:techquest/features/onboarding/ui/screens/on_boarding_screens.dart';
 import 'package:techquest/features/profile/ui/screens/edit_profile/screen/change_phone_number.dart';
 import 'package:techquest/features/profile/ui/screens/edit_profile/screen/edit_profile.dart';
@@ -54,6 +55,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const SecondChangePhoneNumber());
       case Routes.lastcontainer:
         return MaterialPageRoute(builder: (_) => const LastContainer());
+        case Routes.mentorProfile:
+        return MaterialPageRoute(builder: (_) => const MentorProfile());
       default:
         return MaterialPageRoute(
           builder: (_) => const Scaffold(

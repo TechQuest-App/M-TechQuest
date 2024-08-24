@@ -24,6 +24,7 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "Already_have": MessageLookupByLibrary.simpleMessage(
             "Already have an account yet?"),
+        "AymanTaher": MessageLookupByLibrary.simpleMessage("Ayman Taher"),
         "Begin_learning": MessageLookupByLibrary.simpleMessage(
             "Begin learning with just a few clicks"),
         "Cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
@@ -64,6 +65,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Enter Your Last Name"),
         "EnterYourPassWord":
             MessageLookupByLibrary.simpleMessage("Enter Your Password"),
+        "Experience": MessageLookupByLibrary.simpleMessage("Experience"),
         "FaceID": MessageLookupByLibrary.simpleMessage(
             "FaceID , Two-step verification"),
         "FaceIDD": MessageLookupByLibrary.simpleMessage("FaceID"),
@@ -72,13 +74,16 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Forget Password"),
         "FullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "Full_name": MessageLookupByLibrary.simpleMessage("Full Name"),
+        "Google": MessageLookupByLibrary.simpleMessage("Google"),
         "Home": MessageLookupByLibrary.simpleMessage("Home"),
         "LastName": MessageLookupByLibrary.simpleMessage("Last Name"),
         "Last_name": MessageLookupByLibrary.simpleMessage("Last Name"),
         "Log_In": MessageLookupByLibrary.simpleMessage("Log In"),
+        "MohamedAli": MessageLookupByLibrary.simpleMessage("Mohamed Ali"),
         "NewPassword": MessageLookupByLibrary.simpleMessage("New Password"),
         "New_password": MessageLookupByLibrary.simpleMessage("New Password"),
         "Notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
+        "OmarMowfak": MessageLookupByLibrary.simpleMessage("Omar Mowfak"),
         "Password": MessageLookupByLibrary.simpleMessage("Password"),
         "PaymentAndShippingInfo":
             MessageLookupByLibrary.simpleMessage("Payment and Shipping Info"),
@@ -98,14 +103,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "Save": MessageLookupByLibrary.simpleMessage("Save"),
         "Security": MessageLookupByLibrary.simpleMessage("Security"),
         "See_All": MessageLookupByLibrary.simpleMessage("See All"),
+        "SeniorUIUXDesigner":
+            MessageLookupByLibrary.simpleMessage("Senior UI UX Designer"),
         "Settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "ShippingAddress":
             MessageLookupByLibrary.simpleMessage("Shipping Address"),
         "SignOut": MessageLookupByLibrary.simpleMessage("Sign Out"),
         "Sign_Up": MessageLookupByLibrary.simpleMessage(" Sign Up"),
         "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "TitleOfReview": MessageLookupByLibrary.simpleMessage(
+            "Lorem ipsum dolor sit amet consectetur. Eu\n arcu scelerisque ultrices varius nam a\n. Nibh sodales faucibus imperdiet bibendum"),
         "TwoStepsVerification":
             MessageLookupByLibrary.simpleMessage("Two-Steps Verification"),
+        "UXDirector": MessageLookupByLibrary.simpleMessage("UX Director"),
         "Wishlist": MessageLookupByLibrary.simpleMessage("Wishlist"),
         "YourCurrentlyPoints":
             MessageLookupByLibrary.simpleMessage("Your Currently Points"),
