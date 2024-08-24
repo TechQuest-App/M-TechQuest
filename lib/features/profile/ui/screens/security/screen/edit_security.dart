@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
-import 'package:techquest/features/profile/ui/screens/porfile/widget/bottom_navigation_bar.dart';
 import 'package:techquest/features/profile/ui/screens/security/widget/contant_security.dart';
 import 'package:techquest/generated/l10n.dart';
 
@@ -38,7 +37,6 @@ class _EditSecurityState extends State<EditSecurity> {
           ],
         ),
       ),
-      bottomNavigationBar: const BottomNavigation(),
     );
   }
 }
