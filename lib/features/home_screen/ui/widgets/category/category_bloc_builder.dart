@@ -50,7 +50,7 @@ class CategoryBlocBuilder extends StatelessWidget {
   }
 
   Widget setupSuccess(categoryList) {
-    return SpecialityListView(
+    return CategoryListView(
       categoryDataList: categoryList ?? [],
     );
   }

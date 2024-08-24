@@ -5,10 +5,10 @@ import 'package:techquest/core/theming/app_text_styles.dart';
 import 'package:techquest/features/home_screen/data/models/category_response_model.dart';
 import '../../../../../core/helpers/spacing.dart';
 
-class SpecialityListViewItem extends StatelessWidget {
+class CategoryListViewItem extends StatelessWidget {
   final CategoryData? categoryData;
 
-  const SpecialityListViewItem({
+  const CategoryListViewItem({
     super.key,
     this.categoryData,
   });

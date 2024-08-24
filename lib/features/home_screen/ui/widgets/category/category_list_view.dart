@@ -4,10 +4,10 @@ import 'package:techquest/features/home_screen/data/models/category_response_mod
 
 import 'category_item.dart';
 
-class SpecialityListView extends StatelessWidget {
+class CategoryListView extends StatelessWidget {
   final List<CategoryData?> categoryDataList;
 
-  const SpecialityListView({
+  const CategoryListView({
     super.key,
     required this.categoryDataList,
   });
@@ -24,7 +24,7 @@ class SpecialityListView extends StatelessWidget {
           if (courseData == null) {
             return const SizedBox.shrink(); // Handle null value gracefully
           }
-          return SpecialityListViewItem(
+          return CategoryListViewItem(
             categoryData: categoryDataList[index],
           );
         },

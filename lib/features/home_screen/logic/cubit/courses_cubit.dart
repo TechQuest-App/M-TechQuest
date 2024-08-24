@@ -12,7 +12,7 @@ class HomeCubit extends Cubit<HomeState> {
   List<CourseData?>? coursesList = [];
   List<CategoryData?>? categorieslist = [];
 
-  void getCourses() async {
+  void getData() async {
     emit(const HomeState.coursesLoading());
     final response = await _homeRepo.getCourses();
     final responseCat = await _homeRepo.getcategories();
