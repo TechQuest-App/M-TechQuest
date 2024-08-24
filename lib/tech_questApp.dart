@@ -42,8 +42,7 @@ class TechQuestApp extends StatelessWidget {
             ],
             supportedLocales: S.delegate.supportedLocales,
             title: 'TechQuest',
-            initialRoute: Routes.homeScreen,
-            
+            home: const AnimatedSplashScreenCustom(),
           ),
         );
       },

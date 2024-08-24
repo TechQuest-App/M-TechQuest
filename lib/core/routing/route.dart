@@ -2,7 +2,6 @@ class Routes {
   static const String onBoardingScreen = "/onBoardingScreen";
   static const String loginScreen = "/LoginScreen";
   static const String signUpScreen = "/SignUpScreen";
-  static const String home = "/home";
   static const String homeScreen = "/HomeScreen";
   
   static const String editProfile ="/EditProfile";
