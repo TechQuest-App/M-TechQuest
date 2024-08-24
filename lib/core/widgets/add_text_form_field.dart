@@ -12,7 +12,9 @@ class AppTextFormField extends StatelessWidget {
   final TextStyle? hintStyle;
   final String hintText;
   final bool? isObscureText;
+  final Widget? prefixIcon;
   final Widget? suffixIcon;
+  
   final Color? backgroundColor;
   final TextEditingController? controller;
   final Function(String?) validator;
@@ -31,7 +33,7 @@ class AppTextFormField extends StatelessWidget {
     this.backgroundColor,
     this.controller,
     required this.validator,
-    this.isNumericKeyboard,
+    this.isNumericKeyboard, this.prefixIcon,
   });
 
   @override
@@ -75,9 +77,10 @@ class AppTextFormField extends StatelessWidget {
           ),
           borderRadius: BorderRadius.circular(16.0),
         ),
-        hintStyle: hintStyle ?? AppTextStyles.font14LightGrayRegular,
+        hintStyle: hintStyle ?? AppTextStyles.font14gray666Regular,
         hintText: hintText,
         suffixIcon: suffixIcon,
+        prefixIcon: prefixIcon,
         fillColor: backgroundColor ?? gray200,
         filled: true,
       ),

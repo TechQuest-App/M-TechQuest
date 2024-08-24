@@ -19,3 +19,6 @@ const blue209 = Color(0xff2097EE);
 const green23 = Color(0xff23CF51);
 const Color moreLightGray = Color(0xFFFDFDFF);
 const Color lighterGray = Color(0xFFEDEDED);
+   const Color lightBlue = Color(0xffD4E1FF);
+   const Color lighterBlue = Color(0xff0039C6);
+

@@ -20,9 +20,19 @@ class AppTextStyles {
     fontSize: 32.sp,
     fontWeight: FontWeightHelper.semiBold, // Semi-bold weight
   );
+  static TextStyle font24wightSemiBold = TextStyle(
+    color: white,
+    fontSize: 24.sp,
+    fontWeight: FontWeightHelper.semiBold, // Semi-bold weight
+  );
   static TextStyle font12GraySemiBold = TextStyle(
     color: gray100,
     fontSize: 12.sp,
+    fontWeight: FontWeightHelper.semiBold, // Semi-bold weight
+  );
+  static TextStyle font14lightBlueSemiBold = TextStyle(
+    color: lightBlue,
+    fontSize: 14.sp,
     fontWeight: FontWeightHelper.semiBold, // Semi-bold weight
   );
   static TextStyle font30BlackSemiBold = TextStyle(
@@ -45,11 +55,19 @@ class AppTextStyles {
       color: primaryColor,
       fontSize: 16.sp,
       fontWeight: FontWeightHelper.bold // Semi-bold weight
+      );static TextStyle font16lighterBlueColorBold = TextStyle(
+      color: lighterBlue,
+      fontSize: 16.sp,
+      fontWeight: FontWeightHelper.bold // Semi-bold weight
       );
   static TextStyle font16BlackRegular = TextStyle(
       color: black,
       fontSize: 16.sp,
       fontWeight: FontWeightHelper.regular // Semi-bold weight
+      );static TextStyle font16BlacksemiBold = TextStyle(
+      color: black,
+      fontSize: 16.sp,
+      fontWeight: FontWeightHelper.semiBold // Semi-bold weight
       );
   static TextStyle font16Blackbold = TextStyle(
       color: black,
@@ -130,10 +148,10 @@ class AppTextStyles {
     color: gray,
   );
 
-  static TextStyle font14LightGrayRegular = TextStyle(
+  static TextStyle font14gray666Regular = TextStyle(
     fontSize: 14.sp,
     fontWeight: FontWeightHelper.regular,
-    color: lighterGray,
+    color: gray666,
   );
 
   static TextStyle font16WhiteMedium = TextStyle(
@@ -157,5 +175,10 @@ class AppTextStyles {
     fontSize: 13.sp,
     fontWeight: FontWeightHelper.semiBold,
     color: primaryColor,
+  );
+  static TextStyle font12Bluemedium = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: blue209,
   );
 }

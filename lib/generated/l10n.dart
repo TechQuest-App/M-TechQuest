@@ -760,6 +760,36 @@ class S {
     );
   }
 
+  /// `See All`
+  String get See_All {
+    return Intl.message(
+      'See All',
+      name: 'See_All',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Categories`
+  String get Categories {
+    return Intl.message(
+      'Categories',
+      name: 'Categories',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recommended For You`
+  String get Recommended_For_You {
+    return Intl.message(
+      'Recommended For You',
+      name: 'Recommended_For_You',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Phone number`
   String get Phone_Number {
     return Intl.message(

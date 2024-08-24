@@ -27,6 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "Begin_learning": MessageLookupByLibrary.simpleMessage(
             "Begin learning with just a few clicks"),
         "Cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
+        "Categories": MessageLookupByLibrary.simpleMessage("Categories"),
         "ChangePhoneMessage": MessageLookupByLibrary.simpleMessage(
             "Enter new phone Number below , and an SMS will be sent to that number with a code"),
         "ChangePhoneNumber":
@@ -88,12 +89,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "Profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "RateApplication":
             MessageLookupByLibrary.simpleMessage("Rate Application"),
+        "Recommended_For_You":
+            MessageLookupByLibrary.simpleMessage("Recommended For You"),
         "ResetPassword": MessageLookupByLibrary.simpleMessage("Reset Password"),
         "ResetPasswordMessage": MessageLookupByLibrary.simpleMessage(
             "Enter your Email Address below. The reset link will be sent thatt email to enter a code  in next screen"),
         "Reviews": MessageLookupByLibrary.simpleMessage("Reviews"),
         "Save": MessageLookupByLibrary.simpleMessage("Save"),
         "Security": MessageLookupByLibrary.simpleMessage("Security"),
+        "See_All": MessageLookupByLibrary.simpleMessage("See All"),
         "Settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "ShippingAddress":
             MessageLookupByLibrary.simpleMessage("Shipping Address"),
