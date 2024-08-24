@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:techquest/core/routing/route.dart';
+import 'package:techquest/features/home/ui/screens/home.dart';
 import 'package:techquest/features/mentor/screen/mentor_profile.dart';
 import 'package:techquest/features/onboarding/ui/screens/on_boarding_screens.dart';
 import 'package:techquest/features/profile/ui/screens/edit_profile/screen/change_phone_number.dart';
@@ -12,7 +13,6 @@ import 'package:techquest/features/profile/ui/screens/security/screen/edit_secur
 import 'package:techquest/features/profile/ui/screens/setting/screen/edit_setting.dart';
 import 'package:techquest/features/profile/ui/widgets/last_container.dart';
 import 'package:techquest/features/login/ui/screens/login_screen.dart';
-import '../../features/home_screen/ui/screens/home_screen.dart';
 import '../../features/login/logic/cubit/login_cubit.dart';
 import '../../features/sign_up/logic/cubit/sigin_up_cubit.dart';
 import '../../features/sign_up/ui/screens/sign_up_screen.dart';
@@ -38,7 +38,7 @@ class AppRouter {
           ),
         );
       case Routes.homeScreen:
-        return MaterialPageRoute(builder: (_) => const HomeScreen());
+        return MaterialPageRoute(builder: (_) => const Home());
       case Routes.editProfile:
         return MaterialPageRoute(builder: (_) => const EditProfile());
       case Routes.editSetting:

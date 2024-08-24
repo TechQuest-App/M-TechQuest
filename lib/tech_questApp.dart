@@ -6,7 +6,7 @@ import 'package:techquest/core/routing/app_router.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 // ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:techquest/features/mentor/screen/mentor_profile.dart';
+import 'package:techquest/features/home/ui/screens/home.dart';
 import 'package:techquest/features/profile/ui/screens/porfile/screen/profile_screen.dart';
 import 'core/routing/app_router.dart';
 import 'core/widgets/animated_splash_screen_custom.dart';
@@ -38,10 +38,9 @@ class TechQuestApp extends StatelessWidget {
           ],
           supportedLocales: S.delegate.supportedLocales,
           title: 'TechQuest',
-          // home: const ProfileScreen(),
+          home: const Home(),
           // home:
           //     const AnimatedSplashScreenCustom(), // Use home instead of initialRoute
-        home: const MentorProfile(),
         );
       },
     );

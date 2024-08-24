@@ -5,7 +5,6 @@ import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
 import 'package:techquest/features/profile/ui/screens/edit_profile/widget/app_text_form_field.dart';
 import 'package:techquest/features/profile/ui/screens/edit_profile/widget/custom_buttom.dart';
-import 'package:techquest/features/profile/ui/screens/porfile/widget/bottom_navigation_bar.dart';
 import 'package:techquest/generated/l10n.dart';
 
 class SecondResetPasswordScreen extends StatefulWidget {
@@ -89,7 +88,6 @@ class _SecondResetPasswordScreenState extends State<SecondResetPasswordScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: const BottomNavigation(),
     );
   }
 }
