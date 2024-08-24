@@ -1,5 +1,5 @@
-import 'package:techquest/features/user_authentication/data/models/login_request_body.dart';
-import 'package:techquest/features/user_authentication/data/models/login_response.dart';
+import 'package:techquest/features/login/data/models/login_request_body.dart';
+import 'package:techquest/features/login/data/models/login_response.dart';
 
 import '../../../../core/networking/api_error_handler.dart';
 import '../../../../core/networking/api_result.dart';

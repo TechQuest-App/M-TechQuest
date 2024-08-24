@@ -7,6 +7,6 @@ import 'tech_questApp.dart';
 
 void main() {
    setupGetIt();
-  runApp( TechQuestApp(appRouter: AppRouter(),));//text
+  runApp( TechQuestApp(appRouter: AppRouter(),));
 }
 

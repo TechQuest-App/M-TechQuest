@@ -140,16 +140,6 @@ class S {
     );
   }
 
-  /// `log In `
-  String get login {
-    return Intl.message(
-      'log In ',
-      name: 'login',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Your learning journey awaits.\n Login now!`
   String get Your_learning_journey_Login {
     return Intl.message(
@@ -280,26 +270,6 @@ class S {
     );
   }
 
-  /// `Sign Out`
-  String get SignOut {
-    return Intl.message(
-      'Sign Out',
-      name: 'SignOut',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Your Currently Points`
-  String get YourCurrentlyPoints {
-    return Intl.message(
-      'Your Currently Points',
-      name: 'YourCurrentlyPoints',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Currency`
   String get Currency {
     return Intl.message(
@@ -365,16 +335,6 @@ class S {
     return Intl.message(
       'Enter Your Last Name',
       name: 'EnterYourLastName',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Email`
-  String get Email {
-    return Intl.message(
-      'Email',
-      name: 'Email',
       desc: '',
       args: [],
     );
@@ -570,11 +530,31 @@ class S {
     );
   }
 
-  /// `Password`
-  String get password {
+  /// `Sign Out`
+  String get SignOut {
     return Intl.message(
-      'Password',
-      name: 'password',
+      'Sign Out',
+      name: 'SignOut',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your Currently Points`
+  String get YourCurrentlyPoints {
+    return Intl.message(
+      'Your Currently Points',
+      name: 'YourCurrentlyPoints',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get Email {
+    return Intl.message(
+      'Email',
+      name: 'Email',
       desc: '',
       args: [],
     );
@@ -585,6 +565,16 @@ class S {
     return Intl.message(
       'Email Address',
       name: 'Email_Address',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Password`
+  String get New_password {
+    return Intl.message(
+      'New Password',
+      name: 'New_password',
       desc: '',
       args: [],
     );
@@ -670,10 +660,10 @@ class S {
     );
   }
 
-  /// `Already have an account yet? Sign Up `
+  /// `Already have an account yet?`
   String get Already_have {
     return Intl.message(
-      'Already have an account yet? Sign Up ',
+      'Already have an account yet?',
       name: 'Already_have',
       desc: '',
       args: [],
@@ -735,6 +725,86 @@ class S {
     return Intl.message(
       'Confirm',
       name: 'Confirm',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Name`
+  String get name {
+    return Intl.message(
+      'Name',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name`
+  String get Full_name {
+    return Intl.message(
+      'Full Name',
+      name: 'Full_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Name`
+  String get Last_name {
+    return Intl.message(
+      'Last Name',
+      name: 'Last_name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `See All`
+  String get See_All {
+    return Intl.message(
+      'See All',
+      name: 'See_All',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Categories`
+  String get Categories {
+    return Intl.message(
+      'Categories',
+      name: 'Categories',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Recommended For You`
+  String get Recommended_For_You {
+    return Intl.message(
+      'Recommended For You',
+      name: 'Recommended_For_You',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Phone number`
+  String get Phone_Number {
+    return Intl.message(
+      'Phone number',
+      name: 'Phone_Number',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Begin learning with just a few clicks`
+  String get Begin_learning {
+    return Intl.message(
+      'Begin learning with just a few clicks',
+      name: 'Begin_learning',
       desc: '',
       args: [],
     );

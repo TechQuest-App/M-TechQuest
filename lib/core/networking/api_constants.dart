@@ -1,7 +1,9 @@
 class ApiConstants {
   static const String apiBaseUrl = "https://indecoding.frevva.com/";
   static const String login = "api/login";
+  static const String register = "api/register";
 }
+
 class ApiErrors {
   static const String badRequestError = "badRequestError";
   static const String noContent = "noContent";
