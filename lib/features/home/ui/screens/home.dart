@@ -24,7 +24,7 @@ List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
           "/": (context) => const HomeScreen(),
           "/first": (context) => const ProfileScreen(),
           "/second": (context) => const WishList(),
-          "therd": (context) => const Clips(),
+          "therd": (context) =>  const Clips(),
           "forth": (context) => const Add(),
         },
       ),
