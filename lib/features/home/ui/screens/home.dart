@@ -8,7 +8,7 @@ import 'package:techquest/features/profile/ui/screens/porfile/screen/profile_scr
 import '../../../../generated/l10n.dart';
 import '../../../home_screen/ui/screens/home_screen.dart';
 import '../../../my_courses/ui/screens/my_courses.dart';
-import '../../../wishlst/ui/widgets/widhlst_screen.dart';
+import '../../../wishlst/ui/screens/widhlst_screen.dart';
 import '../../logic/nav_cubit.dart';
 
 List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
