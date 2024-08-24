@@ -819,6 +819,116 @@ class S {
       args: [],
     );
   }
+
+  /// `Mohamed Ali`
+  String get MohamedAli {
+    return Intl.message(
+      'Mohamed Ali',
+      name: 'MohamedAli',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Senior UI UX Designer`
+  String get SeniorUIUXDesigner {
+    return Intl.message(
+      'Senior UI UX Designer',
+      name: 'SeniorUIUXDesigner',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Experience`
+  String get Experience {
+    return Intl.message(
+      'Experience',
+      name: 'Experience',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `UX Director`
+  String get UXDirector {
+    return Intl.message(
+      'UX Director',
+      name: 'UXDirector',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Google`
+  String get Google {
+    return Intl.message(
+      'Google',
+      name: 'Google',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ayman Taher`
+  String get AymanTaher {
+    return Intl.message(
+      'Ayman Taher',
+      name: 'AymanTaher',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lorem ipsum dolor sit amet consectetur. Eu\n arcu scelerisque ultrices varius nam a\n. Nibh sodales faucibus imperdiet bibendum`
+  String get TitleOfReview {
+    return Intl.message(
+      'Lorem ipsum dolor sit amet consectetur. Eu\n arcu scelerisque ultrices varius nam a\n. Nibh sodales faucibus imperdiet bibendum',
+      name: 'TitleOfReview',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Omar Mowfak`
+  String get OmarMowfak {
+    return Intl.message(
+      'Omar Mowfak',
+      name: 'OmarMowfak',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start learning now`
+  String get StartlearningNow {
+    return Intl.message(
+      'Start learning now',
+      name: 'StartlearningNow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Elevate your Figma designs effortless...`
+  String get ElevateYourFigmaDesignsEffortless {
+    return Intl.message(
+      'Elevate your Figma designs effortless...',
+      name: 'ElevateYourFigmaDesignsEffortless',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enroll Now`
+  String get EnrollNow {
+    return Intl.message(
+      'Enroll Now',
+      name: 'EnrollNow',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
