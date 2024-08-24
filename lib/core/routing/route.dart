@@ -14,6 +14,7 @@ class Routes {
   static const String secondChangePhoneNumber  ="/SecondChangePhoneNumber";
   static const String lastcontainer  ="/LastContainer";
   static const String mentorProfile  ="/MentorProfile";
+  static const String coursesDetails  ="/CoursesDetails";
 
 
   

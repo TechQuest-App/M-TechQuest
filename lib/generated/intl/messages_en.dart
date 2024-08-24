@@ -53,8 +53,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Edit Phone Number"),
         "EditYourPassword": MessageLookupByLibrary.simpleMessage(
             "Edit your password , name , address , Shoes Size "),
+        "ElevateYourFigmaDesignsEffortless":
+            MessageLookupByLibrary.simpleMessage(
+                "Elevate your Figma designs effortless..."),
         "Email": MessageLookupByLibrary.simpleMessage("Email"),
         "Email_Address": MessageLookupByLibrary.simpleMessage("Email Address"),
+        "EnrollNow": MessageLookupByLibrary.simpleMessage("Enroll Now"),
         "EnterCode": MessageLookupByLibrary.simpleMessage("Enter Code"),
         "EnterTheCodeSentTo":
             MessageLookupByLibrary.simpleMessage("Enter the code sent to"),
@@ -112,6 +116,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "SignOut": MessageLookupByLibrary.simpleMessage("Sign Out"),
         "Sign_Up": MessageLookupByLibrary.simpleMessage(" Sign Up"),
         "Skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "StartlearningNow":
+            MessageLookupByLibrary.simpleMessage("Start learning now"),
         "TitleOfReview": MessageLookupByLibrary.simpleMessage(
             "Lorem ipsum dolor sit amet consectetur. Eu\n arcu scelerisque ultrices varius nam a\n. Nibh sodales faucibus imperdiet bibendum"),
         "TwoStepsVerification":

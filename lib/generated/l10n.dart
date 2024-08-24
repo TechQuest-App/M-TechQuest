@@ -899,6 +899,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Start learning now`
+  String get StartlearningNow {
+    return Intl.message(
+      'Start learning now',
+      name: 'StartlearningNow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Elevate your Figma designs effortless...`
+  String get ElevateYourFigmaDesignsEffortless {
+    return Intl.message(
+      'Elevate your Figma designs effortless...',
+      name: 'ElevateYourFigmaDesignsEffortless',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enroll Now`
+  String get EnrollNow {
+    return Intl.message(
+      'Enroll Now',
+      name: 'EnrollNow',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

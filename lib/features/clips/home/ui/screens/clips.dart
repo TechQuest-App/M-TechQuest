@@ -4,6 +4,7 @@ import 'package:techquest/core/helpers/spacing.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
 import 'package:techquest/core/widgets/app_text_button.dart';
+import 'package:techquest/generated/l10n.dart';
 
 class Clips extends StatelessWidget {
   const Clips({super.key});
@@ -43,13 +44,11 @@ class Clips extends StatelessWidget {
               right: 70,
               child: AppTextButton(
                 onPressed: () {},
-                buttonText: 'Start learning now',
+                buttonText: S.of(context).StartlearningNow,
                 textStyle: AppTextStyles.font16BWhiteBold,
                 borderRadius: 10,
               ),
-              
             ),
-          
             Positioned(
               bottom: MediaQuery.sizeOf(context).height / 25,
               right: 10,
@@ -79,7 +78,7 @@ class Clips extends StatelessWidget {
                   Row(
                     children: [
                       CircleAvatar(
-                        backgroundColor: Colors.white,
+                        backgroundColor: white,
                         child: CircleAvatar(
                           radius: 75.r,
                           backgroundImage: const AssetImage(
@@ -87,17 +86,16 @@ class Clips extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const SizedBox(width: 10),
+                      horizontalSpace(10),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text('Elbalf69',
                               style: AppTextStyles.font16WhiteMedium),
                           Text(
-                            'Elevate your Figma designs effortless...',
+                            S.of(context).ElevateYourFigmaDesignsEffortless,
                             style: AppTextStyles.font16WhiteMedium,
                           ),
-                          
                         ],
                       ),
                     ],
