@@ -78,8 +78,8 @@ List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
       ),
     ),
     PersistentBottomNavBarItem(
-      icon: const Icon(Icons.person_outline),
-      title: S.of(context).Profile,
+      icon: const Icon(Icons.favorite_border),
+      title: S.of(context).Wishlist,
       activeColorPrimary: primaryColor,
       inactiveColorPrimary: gray400,
       routeAndNavigatorSettings: RouteAndNavigatorSettings(
@@ -89,7 +89,6 @@ List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
           "/first": (context) => const ProfileScreen(),
           "/second": (context) => const WishList(),
           "therd": (context) => const Clips(),
-          "forth": (context) => const Add(),
         },
       ),
     ),
