@@ -41,23 +41,7 @@ List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
           "/first": (context) => const MyCourses(),
           "/second": (context) => const WishList(),
           "therd": (context) => const Clips(),
-          "forth": (context) => const Add(),
-        },
-      ),
-    ),
-    PersistentBottomNavBarItem(
-      icon: const Icon(Icons.add, color: white),
-      title: S.of(context).Add,
-      activeColorPrimary: primaryColor,
-      inactiveColorPrimary: gray400,
-      routeAndNavigatorSettings: RouteAndNavigatorSettings(
-        initialRoute: "/",
-        routes: {
-          "/": (context) => const HomeScreen(),
-          "/first": (context) => const MyCourses(),
-          "/second": (context) => const WishList(),
-          "therd": (context) => const Clips(),
-          "forth": (context) => const Add(),
+          "forth": (context) => const ProfileScreen(),
         },
       ),
     ),
@@ -73,7 +57,7 @@ List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
           "/first": (context) => const MyCourses(),
           "/second": (context) => const WishList(),
           "therd": (context) => const Clips(),
-          "forth": (context) => const Add(),
+          "forth": (context) => const ProfileScreen(),
         },
       ),
     ),
@@ -86,9 +70,28 @@ List<PersistentBottomNavBarItem> navBarsItems(BuildContext context) {
         initialRoute: "/",
         routes: {
           "/": (context) => const HomeScreen(),
-          "/first": (context) => const ProfileScreen(),
+          "/first": (context) => const MyCourses(),
           "/second": (context) => const WishList(),
           "therd": (context) => const Clips(),
+          "forth": (context) => const ProfileScreen(),
+        },
+      ),
+    ),
+    PersistentBottomNavBarItem(
+      icon: const Icon(
+        Icons.person_2_outlined,
+      ),
+      title: S.of(context).Profile,
+      activeColorPrimary: primaryColor,
+      inactiveColorPrimary: gray400,
+      routeAndNavigatorSettings: RouteAndNavigatorSettings(
+        initialRoute: "/",
+        routes: {
+          "/": (context) => const HomeScreen(),
+          "/first": (context) => const MyCourses(),
+          "/second": (context) => const WishList(),
+          "therd": (context) => const Clips(),
+          "forth": (context) => const ProfileScreen(),
         },
       ),
     ),
@@ -102,9 +105,9 @@ class Home extends StatelessWidget {
     return [
       const HomeScreen(),
       const MyCourses(),
-      const Add(),
       const Clips(),
       const WishList(),
+      const ProfileScreen(),
     ];
   }
 
@@ -137,7 +140,7 @@ class Home extends StatelessWidget {
                 },
                 confineToSafeArea: true,
                 navBarHeight: kBottomNavigationBarHeight,
-                navBarStyle: NavBarStyle.style16,
+                navBarStyle: NavBarStyle.style3,
                 animationSettings: const NavBarAnimationSettings(
                   navBarItemAnimation: ItemAnimationSettings(
                     duration: Duration(milliseconds: 400),

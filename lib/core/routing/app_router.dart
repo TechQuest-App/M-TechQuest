@@ -14,6 +14,7 @@ import 'package:techquest/features/profile/ui/screens/security/screen/edit_secur
 import 'package:techquest/features/profile/ui/screens/setting/screen/edit_setting.dart';
 import 'package:techquest/features/profile/ui/widgets/last_container.dart';
 import 'package:techquest/features/login/ui/screens/login_screen.dart';
+import '../../features/home_screen/ui/screens/home_screen.dart';
 import '../../features/login/logic/cubit/login_cubit.dart';
 import '../../features/sign_up/logic/cubit/sigin_up_cubit.dart';
 import '../../features/sign_up/ui/screens/sign_up_screen.dart';

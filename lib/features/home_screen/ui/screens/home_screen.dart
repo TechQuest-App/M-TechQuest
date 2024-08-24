@@ -4,9 +4,10 @@ import 'package:flutter_svg/svg.dart';
 
 import '../../../../core/helpers/spacing.dart';
 import '../../../../generated/l10n.dart';
-import '../widgets/categories_list_view.dart';
+import '../courses/courses_bloc_builder.dart';
 import '../widgets/categories_see_all.dart';
-import '../widgets/courses_list_view.dart';
+import '../widgets/category/category_bloc_builder.dart';
+import '../widgets/category/category_list_view.dart';
 import '../widgets/home_top_bar.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -23,13 +24,13 @@ class HomeScreen extends StatelessWidget {
             CategoriesSeeAll(
               text: S.of(context).Categories,
             ),
-            const CategoriesListView(),
+            verticalSpace(16),
+            const CategoryBlocBuilder(),
             verticalSpace(16),
             CategoriesSeeAll(
               text: S.of(context).Recommended_For_You,
             ),
-            verticalSpace(16),
-            const CoursesListView(),
+            const DoctorsBlocBuilder(),
           ],
         ),
       ),

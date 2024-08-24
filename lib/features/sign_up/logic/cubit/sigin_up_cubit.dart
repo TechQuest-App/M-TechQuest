@@ -46,7 +46,6 @@ class SignupCubit extends Cubit<SignupState> {
     lNameController.dispose();
     emailController.dispose();
     phoneController.dispose();
-    passwordController.dispose();
     return super.close();
   }
 }
