@@ -740,6 +740,16 @@ class S {
     );
   }
 
+  /// `Add`
+  String get Add {
+    return Intl.message(
+      'Add',
+      name: 'Add',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Full Name`
   String get Full_name {
     return Intl.message(

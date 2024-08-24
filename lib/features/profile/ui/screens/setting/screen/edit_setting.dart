@@ -4,7 +4,6 @@ import 'package:techquest/core/helpers/spacing.dart';
 import 'package:techquest/core/theming/app_colors.dart';
 import 'package:techquest/core/theming/app_text_styles.dart';
 import 'package:techquest/features/profile/ui/screens/edit_profile/widget/app_text_form_field.dart';
-import 'package:techquest/features/profile/ui/screens/porfile/widget/bottom_navigation_bar.dart';
 import 'package:techquest/features/profile/ui/screens/porfile/widget/simple_menu_item.dart';
 import 'package:techquest/features/profile/ui/widgets/last_container.dart';
 import 'package:techquest/generated/l10n.dart';
@@ -84,7 +83,6 @@ class EditSetting extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: const BottomNavigation(),
     );
   }
 }
