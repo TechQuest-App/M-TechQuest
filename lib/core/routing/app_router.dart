@@ -12,6 +12,8 @@ import 'package:techquest/features/profile/ui/screens/security/screen/edit_secur
 import 'package:techquest/features/profile/ui/screens/setting/screen/edit_setting.dart';
 import 'package:techquest/features/profile/ui/widgets/last_container.dart';
 import 'package:techquest/features/login/ui/screens/login_screen.dart';
+import '../../features/home_screen/logic/cubit/courses_cubit.dart';
+import '../../features/home_screen/ui/screens/home_screen.dart';
 import '../../features/login/logic/cubit/login_cubit.dart';
 import '../../features/sign_up/logic/cubit/sigin_up_cubit.dart';
 import '../../features/sign_up/ui/screens/sign_up_screen.dart';
@@ -29,15 +31,20 @@ class AppRouter {
             child: const LoginScreen(),
           ),
         );
-         case Routes.signUpScreen:
+      case Routes.signUpScreen:
         return MaterialPageRoute(
           builder: (_) => BlocProvider(
             create: (context) => getIt<SignupCubit>(),
             child: const SignupScreen(),
           ),
         );
-      case Routes.homeScreen:
-        return MaterialPageRoute(builder: (_) => const Home());
+      case Routes.home:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) => HomeCubit(getIt())..getCourses(),
+            child: const HomeScreen(),
+          ),
+        );
       case Routes.editProfile:
         return MaterialPageRoute(builder: (_) => const EditProfile());
       case Routes.editSetting:
@@ -47,11 +54,13 @@ class AppRouter {
       case Routes.resetPassword:
         return MaterialPageRoute(builder: (_) => const ResetPassword());
       case Routes.secondResetPasswordScreen:
-        return MaterialPageRoute(builder: (_) => const SecondResetPasswordScreen());
+        return MaterialPageRoute(
+            builder: (_) => const SecondResetPasswordScreen());
       case Routes.changePhoneNumber:
         return MaterialPageRoute(builder: (_) => const ChangePhoneNumber());
       case Routes.secondChangePhoneNumber:
-        return MaterialPageRoute(builder: (_) => const SecondChangePhoneNumber());
+        return MaterialPageRoute(
+            builder: (_) => const SecondChangePhoneNumber());
       case Routes.lastcontainer:
         return MaterialPageRoute(builder: (_) => const LastContainer());
       default:
